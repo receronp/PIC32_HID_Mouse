@@ -134,7 +134,7 @@ void MOUSE_ReportCreate
     for (index = 0; index < MOUSE_BUTTON_NUMBERS; index ++)
     {
         /* Create the mouse button bit map */
-        mouseReport->data[0] |= buttonArray[index];
+        mouseReport->data[0] |= (buttonArray[index] << index);
     }
 
     /* Update the x and y co-ordinate */

@@ -353,6 +353,8 @@ extern "C" {
 
 /* Macros defines board specific switch */
 #define APP_USB_SWITCH_1    BSP_SWITCH_1
+#define APP_USB_SWITCH_2    BSP_SWITCH_2
+#define APP_USB_SWITCH_3    BSP_SWITCH_3
 
 
 //DOM-IGNORE-BEGIN
