@@ -126,7 +126,9 @@ typedef struct
     bool ignoreSwitchPress;
 
     /* Tracks switch press*/
-    bool isSwitchPressed;
+    bool isSwitchPressed1;
+    bool isSwitchPressed2;
+    bool isSwitchPressed3;
 
     /* Mouse x coordinate*/
     MOUSE_COORDINATE xCoordinate;
